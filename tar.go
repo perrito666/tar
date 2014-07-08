@@ -14,11 +14,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-
-	"github.com/juju/loggo"
 )
-
-var logger = loggo.GetLogger("juju.tar")
 
 // TarFiles creates a tar archive at targetPath holding the files listed
 // in fileList. If compress is true, the archive will also be gzip
