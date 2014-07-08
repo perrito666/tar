@@ -1,4 +1,4 @@
-tar
-===
+juju/tar
+============
 
-tar is a go package for tarring files
+This package provides functions to tar/untar /targz/untargz files.
